@@ -156,14 +156,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Header Section */
 .intro {
 	display: table;
-	width: 100%;
+  width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) top center no-repeat;
+	background: url(../img/fulllogo_transparent_nobuffer.png) top center no-repeat;
 	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	-o-background-size: contain;
 }
 .intro .overlay {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,70ad47+100&0.6+0,0.4+100 */
@@ -198,15 +198,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 header .intro-text {
-	padding-top: 320px;
-	padding-bottom: 200px;
+	padding-top: 250px;
+	padding-bottom: 250px;
 	text-align: center;
 }
 /* About Section */
 #about {
-	padding: 120px 0 80px 0;
+	padding: 50px 0 50px 0;
 	background: #f6f6f6;
-}
+}x
 #about h3 {
 	font-size: 22px;
 	font-weight: 600;
@@ -239,7 +239,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 120px 0;
+	padding: 50px 0;
 	background: #6aaf08;
 }
 #services .service-media {
@@ -273,7 +273,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #f6f6f6;
 }
 .categories {
@@ -422,7 +422,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #F6F6F6;
 }
 #contact .section-title p {
@@ -489,7 +489,6 @@ color: #777;
 }
 #contact .contact-item {
 	/*margin: 20px 0 40px 0;*/
-  text-align: left;
 }
 /* Footer Section*/
 #footer {
@@ -503,14 +502,14 @@ color: #777;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-#footer .social {
+#contact .social {
 	margin: 10px 0 50px 0;
 }
-#footer .social ul li {
+#contact .social ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
-#footer .social i.fa {
+#contact .social i.fa {
 	font-size: 22px;
 	width: 40px;
 	height: 40px;
@@ -520,10 +519,11 @@ color: #777;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
-#footer .social i.fa:hover {
+#contact .social i.fa:hover {
 	background: #6aaf08;
 	color: #fff;
 }
+
 #footer p {
 	color: #666;
 	font-size: 15px;
@@ -533,4 +533,15 @@ color: #777;
 }
 #footer a:hover {
 	color: #ccc;
+}
+
+.nav-home {
+  display: contents;
+  font-size: medium;
+}
+
+@media (min-width: 768px) {
+   .nav-home{
+    display: none;
+  }
 }
