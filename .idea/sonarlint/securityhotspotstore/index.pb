@@ -1,12 +1,4 @@
 
-E
-webpack.config.dev.js,0/b/0b854aa5e85a22341e545b373f403394523472db
-F
-webpack.config.prod.js,6/b/6b9c97d89ce44d0191457145a792ef50162abb80
-@
-site.webmanifest,8/6/868bac26f4a0e9278ed929c78cf7bec5af3dcd0e
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 >
 .gitattributes,2/4/24139dae656713ba861751fb2c2ac38839349a7a
 =
@@ -14,12 +6,6 @@ F
 :
 
 index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
-;
-LICENSE.txt,7/9/79b82ce9b64a924266619555502f890dd80c83b9
-8
-icon.svg,1/9/19763b82bba48905dbe6f14a35072322b0ea35bb
-8
-404.html,1/2/12bf52c5b60772bbf201ffb05d6bb178c1bf9a28
 :
 
 robots.txt,3/7/377f6a321ea49092ae656938a73989aed62ca738
@@ -28,10 +14,6 @@ robots.txt,3/7/377f6a321ea49092ae656938a73989aed62ca738
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 =
 css/style.css,1/2/126b0f8c1ec95fb3a2541745bfc21365b438d668
-@
-js/contact_me.js,b/7/b7785bbd843247cb31631280c623145a8d5034b0
-C
-mail/contact_me.php,2/2/2220807be79e8c32ff3f6ac00b500bd36e8863f3
 B
 js/owl.carousel.js,f/1/f19cbdd8532600d971c2399c9eb2a179365e06b4
 ?
