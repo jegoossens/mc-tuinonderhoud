@@ -8,7 +8,7 @@ $(function() {
             var name = $("input#name").val();
             var subject = $("input#subject").val();
             var message = $("textarea#message").val();
-            window.location.href = 'mailto:jensgoossens@telenet.be?subject=Contact Website: ' + subject + ' (' + name + ')' + '&body=' + message;
+            window.location.href = 'mailto:mc-tuinonderhoud@outlook.be?subject=Contact Website: ' + subject + ' (' + name + ')' + '&body=' + message;
         },
         filter: function() {
             return $(this).is(":visible");
